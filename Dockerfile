@@ -21,9 +21,6 @@ COPY web.xml    /usr/local/tomcat/conf/web.xml
 COPY setenv.sh  /usr/local/tomcat/bin/setenv.sh
 COPY entry.sh   /usr/local/bin/entry.sh
 
-ARG JAVA_HOME=/usr/lib/jvm/java
-ARG JRE_HOME=/usr/lib/jvm/java
-
 CMD ["sh","/usr/local/bin/entry.sh"]
 
 
