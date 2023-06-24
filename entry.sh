@@ -9,7 +9,7 @@ export JRE_HOME=/usr/lib/jvm/default-jvm
 export TOMCAT_HOME=/usr/local/tomcat
 export CATALINA_HOME=/usr/local/tomcat
 
-env
+export CLASSPATH=.:$JRE_HOME/lib:$CATALINA_HOME/lib:$CATALINA_HOME/lib/servlet-api.jar
 
 /usr/local/tomcat/bin/startup.sh
 
