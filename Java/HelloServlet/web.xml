@@ -6,7 +6,7 @@
 <web-app>
   <servlet>
     <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>net.berdysh.HelloServlet.HelloServlet</servlet-class>
+    <servlet-class>net.berdysh.HelloServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HelloServlet</servlet-name>

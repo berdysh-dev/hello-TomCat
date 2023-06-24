@@ -11,6 +11,10 @@ export CATALINA_HOME=/usr/local/tomcat
 
 export CLASSPATH=.:$JRE_HOME/lib:$CATALINA_HOME/lib:$CATALINA_HOME/lib/servlet-api.jar
 
+cd /usr/local/tomcat/webapps/ROOT/WEB-INF/classes/net/berdysh
+
+javac HelloServlet.java
+
 /usr/local/tomcat/bin/startup.sh
 
 while test true

@@ -1,4 +1,4 @@
-package net.berdysh.HelloServlet ;
+package net.berdysh ;
 
 import java.io.*;
 
